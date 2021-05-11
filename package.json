@@ -1,0 +1,31 @@
+{
+  "name": "vendor_portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "minified-css": "postcss src/styles.css -o public/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-angelo-estor16/vendor_portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-angelo-estor16/vendor_portal/issues"
+  },
+  "homepage": "https://github.com/michael-angelo-estor16/vendor_portal#readme"
+}
