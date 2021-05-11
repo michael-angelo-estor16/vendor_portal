@@ -1,1 +1,4 @@
 node_modules
+public/styles.css
+public/styles.min.css
+tailwind.config.default.js
